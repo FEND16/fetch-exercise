@@ -4,18 +4,25 @@
   <meta charset="UTF-8">
   <title>FETCH</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body{
-      background-color: cornflowerblue;
-      color: white;
-      font: 100%/1.5 "Consolas", monospace;
-    }
-  </style>
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <main>
-    <h1>Fetchy</h1>
+  <main class="container">
+    <section>
+      <label for="artist">Artist</label>
+      <input type="text" class="input" id="artist">
+      <label for="title">Title</label>
+      <input type="text" class="input" id="title">
+      <label for="id">ID </label>
+      <input type="text" class="input" id="id">
+      <button id="post" class="btn btn-primary">Post</button>
+      <button id="patch" class="btn btn-primary">Patch</button>
+      <button id="delete" class="btn btn-primary">Delete</button>
+
+    </section>
+    <section class="albumList">   
+    </section>
   </main>
-  <script src="main.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
